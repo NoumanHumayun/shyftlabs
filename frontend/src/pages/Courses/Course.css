@@ -1,0 +1,48 @@
+.courseList{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 10px gainsboro;
+    -webkit-box-shadow: 0px 2px 10px gainsboro;
+    margin: 20px;
+
+}
+.courseListTop{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.courseListTitle{
+    color: #525252;
+}
+.courseCreateBtn {
+    border: none;
+    padding: 7px 10px;
+    border-radius: 5px;
+    background: darkcyan;
+    color: #fff;
+    cursor: pointer;
+}
+.courseListCourse {
+    display: flex;
+    align-items: center;
+}
+
+img.courseListCourseImg {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+}
+.courseListIcon{
+    font-size: 20px;
+    cursor: pointer;
+}
+.courseListIcon.edit{
+    color: green;
+}
+.courseListIcon.delete{
+    color: tomato;
+}

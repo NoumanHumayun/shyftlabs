@@ -1,0 +1,60 @@
+
+.newResult{
+    flex: 1;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px gainsboro;
+    -webkit-box-shadow: 0px 0px 10px gainsboro;
+}
+.newResultTitle{
+    color: #525252;
+    margin-bottom: 30px;
+}
+.newResultForm{
+    display: flex;
+    flex-wrap: wrap;
+}
+.newResultItem {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #525252;
+    width: 45%;
+    margin-right: 5%;
+}
+
+.newResultAvatar {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.newResultItemInput {
+    border: none;
+    padding: 10px;
+    border-bottom: 1px solid #525252;
+    margin-bottom: 10px;
+    outline: none;
+}
+
+.newResultItemBtn {
+    border: none;
+    padding: 10px 15px;
+    background: lightgreen;
+    font-weight: 600;
+    margin: 20px 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.newResultInputGroup {
+    display: flex;
+    align-items: center;
+}
+.newResultInputGroup input {
+    margin: 0 10px;
+}
+.newResultItem:last-child{
+    display: block;
+    text-align: center;
+    width: 100%;
+}
